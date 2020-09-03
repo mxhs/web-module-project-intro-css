@@ -1,0 +1,161 @@
+/**
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+**/
+
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border: 1px solid grey; use this to see where evrything starts and stops */
+  }
+
+  html{
+    font-size:62.5%;
+  }
+
+  body{
+    line-height:1.5;
+    font-size:1.6rem;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+a {
+    text-decoration: none; /*removes underline from links*/
+    color: #4f4f4f;
+  }
+
+nav{
+    text-align: center;
+    /* margin: 5% auto; */
+    width: 100%;
+  }
+
+nav a{
+    display: inline-block;
+    font-size: 2.5rem;
+    margin: 5% 9%;
+    padding: 0 1%;
+    width: 11%;
+    border-radius: 12px;
+    color: white;
+  }
+
+.plan{
+    background-color: #FF764E;
+    
+}
+
+.learn{
+    background-color: #5ED3EB;
+}
+
+.involve{
+    background-color:#FFCD69;
+
+}
+
+.header-image{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    margin: 0 5%;
+    margin-bottom: 1%;
+    display: inline-block;
+}
+
+.header-text{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 55%;
+    margin: 2%;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 9rem;
+  }
+
+.header-text p{
+font-size: 2.5rem;
+margin-top: 2%;
+}
+
+.header-text p:last-child{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#middle-body .text{
+    background-color: #DDB9A3;
+    color: white;
+    text-align: center;
+    width: 90%;
+    margin: 2% auto;
+    font-size: 2.5rem;
+    padding: 2%;
+}
+
+#middle-body .text p:last-child{
+    margin-top: 2%;
+}
+
+#info{
+    margin: 0 auto;
+    margin-bottom: 5%;
+    text-align: center;
+    width: 25%;
+    font-size: 2rem;
+}
+
+p span{
+    font-weight: 900;
+} 
+
+.fire{
+    margin: auto;
+    height: 50%;
+    width: 50%;
+}
+
+.rv{
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 50%;
+    width: 50%;
+}
+
+footer .footer-image{
+      object-fit: cover;
+      object-position: 0 50%;
+      height: 50%;
+      width: 100%;
+      margin: 0 auto;
+      background-attachment: fixed;
+  }
+
+footer nav{
+      background-color: #F9E7DC;
+  }

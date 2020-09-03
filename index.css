@@ -48,24 +48,24 @@ a {
   }
 
 nav{
-    display: inline-block;
     text-align: center;
-    margin: 5% auto;
+    /* margin: 5% auto; */
     width: 100%;
   }
 
 nav a{
+    display: inline-block;
     font-size: 2rem;
-    margin: 10% 5%;
-    padding: 2%;
-    max-block-size: 10%;
+    margin: 5% 10%;
+    padding: 0 1%;
+    width: 180px;
     border-radius: 12px;
     color: white;
-    overflow-wrap: break-word;
   }
 
 .plan{
     background-color: #FF764E;
+    
 }
 
 .learn{
@@ -74,19 +74,19 @@ nav a{
 
 .involve{
     background-color:#FFCD69;
+
 }
 
 .header-image{
-    display: inline-block;
     width: 25%;
     height: 25%;
     border-radius: 50%;
-    margin: 5%;
-
+    margin: 2%;
+    display: inline-block;
 }
 
-.header-text{
-    display: inline-block;
+.header-text h1{
+    
     text-align: center center;
     width: 49%;
     margin: 5%;
@@ -111,22 +111,26 @@ h1{
     width: 30%;
 }
 
-#info .content .span{
-    font-weight: bolder;
+#info .content span{
+    font-weight: 900;
 }
 
 .fire{
     margin: auto;
-    height: 10%;
-    width: 10%;
+    height: 75%;
+    width: 75%;
 }
 
 .rv{
     margin: auto;
-    height: 10%;
-    width: 10%;
+    height: 75%;
+    width: 75%;
 }
 
   footer img{
-      height:
+      background-size: cover;
+  }
+
+  footer nav{
+      background-color: #F9E7DC;
   }
